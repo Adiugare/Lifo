@@ -4,30 +4,31 @@
 
 This repository contains basic Verilog HDL projects for learning and practicing RTL design and verification concepts.
 
-## Projects Included
+# LIFO (Stack) Design using Verilog HDL
 
-### 1. RAM Designs
-- Single Port RAM
-- Dual Port RAM
-- Synchronous RAM
-- Asynchronous RAM
-
-### 2. FIFO
-- Synchronous FIFO Design
-- FIFO Testbench
-- Full and Empty Condition Handling
-
-### 3. LIFO (Stack)
-- Synchronous LIFO Design
-- Push and Pop Operations
-- LIFO Testbench
+This project implements a simple synchronous LIFO (Last In First Out) stack using Verilog HDL.
 
 ## Features
-- Verilog HDL RTL Coding
-- Modular Design Approach
-- Testbench with Tasks
-- Clock and Reset Handling
-- Memory-Based Design Concepts
+- Push Operation
+- Pop Operation
+- Stack-Based Memory Storage
+- Synchronous Design using Clock
+- Verilog Testbench Included
+
+## LIFO Concept
+LIFO follows:
+Last In → First Out
+
+Example:
+If data entered is:
+AA → BB → CC
+
+Output during pop:
+CC → BB → AA
+
+## Files Included
+- `lifo.v`       → RTL Design
+- `lifo_tb.v`    → Testbench
 
 ## Tools Used
 - Vivado
@@ -35,11 +36,11 @@ This repository contains basic Verilog HDL projects for learning and practicing 
 - GTKWave
 
 ## Topics Covered
+- Stack Memory
 - Sequential Logic
-- Memory Design
-- Stack and Queue Concepts
-- Synchronous vs Asynchronous Operations
-- Testbench Development
+- Push and Pop Operations
+- Pointer-Based Memory Access
+- RTL Design and Verification
 
 ## Author
 Aditya Ugare
