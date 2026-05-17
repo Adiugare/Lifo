@@ -1,0 +1,16 @@
+Time resolution is 1 ps
+TIME=0 push=0 pop=0 din=00 dout=xx
+TIME=5000 push=0 pop=0 din=00 dout=00
+TIME=15000 push=1 pop=0 din=aa dout=00
+TIME=25000 push=0 pop=0 din=aa dout=00
+TIME=35000 push=1 pop=0 din=bb dout=00
+TIME=45000 push=0 pop=0 din=bb dout=00
+TIME=55000 push=1 pop=0 din=cc dout=00
+TIME=65000 push=0 pop=0 din=cc dout=00
+TIME=75000 push=0 pop=1 din=cc dout=cc
+TIME=85000 push=0 pop=0 din=cc dout=cc
+TIME=95000 push=0 pop=1 din=cc dout=bb
+TIME=105000 push=0 pop=0 din=cc dout=bb
+TIME=115000 push=0 pop=1 din=cc dout=aa
+TIME=125000 push=0 pop=0 din=cc dout=aa
+$finish called at time : 145 ns : File "E:/PRG Files/lifo/lifo.srcs/sim_1/new/lifo_tb.v" Line 116
